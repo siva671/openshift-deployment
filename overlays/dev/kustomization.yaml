@@ -1,0 +1,11 @@
+bases:
+  - ../../base
+
+namePrefix: dev-
+namespace: dev-environment
+
+resources:
+  - deployment.yaml
+  - service.yaml
+  - nginx-deployment.yaml
+  - nginx-service.yaml
